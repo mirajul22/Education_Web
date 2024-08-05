@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: "Roboto", sans-serif;
+}
+.header
+{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 500;
+  padding: 1.125rem 1.875rem;
+  transition: ease-in 0.5s ease-in-out;
+  -webkit-transition: ease-in 0.5s ease-in-out;
+}
+.header-bg
+{
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+.bg
+{
+  background-image: url('/public/images/hero/home-three-banner-2.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -999;
+}
+.bg1
+{
+  transform: translateX(-3.125rem);
+
+}
+.bg2
+{
+  transform: translateX(34.375rem);
+}
+.bg3
+{
+  transform: translateX(10.625rem);
+}
+.bg4
+{
+  transform: translateX(3.75rem);
+}

@@ -1,6 +1,8 @@
 import Cours from "../components/courses/Cours";
 import Hero from "../components/hero/Hero";
 import Nav from "../components/navigation/Nav";
+import Offer from "../components/Offer/Offer";
+import Popular from "../components/popular/Popular";
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
       <Nav />
       <Hero />
       <Cours />
+      <Offer />
+      <Popular />
     </>
   );
 };

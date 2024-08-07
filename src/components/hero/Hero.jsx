@@ -26,8 +26,8 @@ const Hero = () => {
               <p>online education and best instructors.</p>
             </div>
 
-            <div>
-              <button className="flex flex-row gap-2 bg-[#535fdb] text-[#f5eeee] px-[1.938rem] py-[0.906rem] text-lg rounded-md">
+            <div className="pt-[1rem]">
+              <button className="flex flex-row gap-2 bg-[#535fdb] text-[#f5eeee] px-[1.938rem] py-[0.906rem] text-lg  rounded-md hover:bg-[#273849] duration-300">
                 Get Started Today <TiArrowRight className="mt-1.5" />
               </button>
             </div>

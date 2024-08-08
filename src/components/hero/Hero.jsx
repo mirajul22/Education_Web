@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section className="bg py-[7.5rem] px-[6.25rem]">
         <img src="/images/hero/shape-11-03-2.png" alt="1" className="bg1" />
-        <div className="flex flex-row item-center justify-center gap-0">
+        <div className="relative flex flex-row item-center justify-center gap-0">
           <div className="flex flex-col gap-6">
             <div>
               <span className="text-[#535fd9] text-[1rem] font-extrabold tracking-widest 	">

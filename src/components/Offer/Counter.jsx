@@ -44,7 +44,7 @@ const Counter = () => {
                 <div className="mt-3">
                   <h1 className="text-[40px] font-extrabold text-white text-center">
                     {count && (
-                      <CountUp start={0} end={378} duration={1} delay={0} />
+                      <CountUp start={0} end={378} duration={2} delay={0} />
                     )}
                     +
                   </h1>

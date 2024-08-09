@@ -5,8 +5,8 @@ const Offer = () => {
   return (
     <>
       <section>
-        <div className="flex flex-row gap-2">
-          <div className="flex ">
+        <div className="flex flex-row justify-around">
+          <div className="flex">
             <div className=" block h-[12.5rem] w-[9.375rem] translate-y-20 z-[-1]">
               <img
                 src="/images/offer/about-group-2.jpg"
@@ -30,7 +30,7 @@ const Offer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="pr-[8.125rem] md:pr-0 lg:pr-0">
             <div>
               <span className="text-base font-bold tracking-widest	text-[#535fdb]">
                 WHO WE ARE

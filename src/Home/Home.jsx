@@ -3,6 +3,7 @@ import Hero from "../components/hero/Hero";
 import Nav from "../components/navigation/Nav";
 import Offer from "../components/Offer/Offer";
 import Popular from "../components/popular/Popular";
+import Test from "../components/testimonial/Test";
 import Work from "../components/workshop/Work";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Offer />
       <Popular />
       <Work />
+      <Test />
     </>
   );
 };

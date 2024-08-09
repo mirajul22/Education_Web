@@ -58,11 +58,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (4 Reviews)
                     </p>
@@ -121,11 +125,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (1 Reviews)
                     </p>
@@ -189,11 +197,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (3 Reviews)
                     </p>
@@ -254,11 +266,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (1 Reviews)
                     </p>
@@ -317,11 +333,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (4 Reviews)
                     </p>
@@ -385,11 +405,15 @@ const Popular = () => {
                   </div>
 
                   <div className="flex flex-row gap-1 py-[0.5rem]">
-                    <img src="/images/popular/star.png" alt="1" className="" />
-                    <img src="/images/popular/star.png" alt="2" />
-                    <img src="/images/popular/star.png" alt="3" />
-                    <img src="/images/popular/star.png" alt="4" />
-                    <img src="/images/popular/star.png" alt="5" />
+                    <img
+                      src="/images/popular/favorite.png"
+                      alt="1"
+                      className=""
+                    />
+                    <img src="/images/popular/favorite.png" alt="2" />
+                    <img src="/images/popular/favorite.png" alt="3" />
+                    <img src="/images/popular/favorite.png" alt="4" />
+                    <img src="/images/popular/favorite.png" alt="5" />
                     <p className="text-sm font-medium text-[#6f6b80]">
                       &nbsp; &nbsp; (2 Reviews)
                     </p>

@@ -1,3 +1,4 @@
+import Commu from "../components/community/Commu";
 import Cours from "../components/courses/Cours";
 import Hero from "../components/hero/Hero";
 import Nav from "../components/navigation/Nav";
@@ -16,6 +17,7 @@ const Home = () => {
       <Popular />
       <Work />
       <Test />
+      <Commu />
     </>
   );
 };

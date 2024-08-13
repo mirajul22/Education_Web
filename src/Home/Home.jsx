@@ -1,5 +1,6 @@
 import Commu from "../components/community/Commu";
 import Cours from "../components/courses/Cours";
+import Footer from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
 import Nav from "../components/navigation/Nav";
 import Offer from "../components/Offer/Offer";
@@ -18,6 +19,7 @@ const Home = () => {
       <Work />
       <Test />
       <Commu />
+      <Footer />
     </>
   );
 };

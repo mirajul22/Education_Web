@@ -5,8 +5,8 @@ const Work = () => {
   return (
     <>
       <section className="bg-[#545fda] h-full p-4">
-        <div className="work flex flex-row gap-28 justify-center pt-[5rem]">
-          <div className="pt-[2rem]">
+        <div className="work flex flex-row gap-28 items-center justify-center">
+          <div className="">
             <span className="text-base font-bold tracking-widest text-white mb-2">
               FREE WORKSHOP
             </span>

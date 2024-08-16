@@ -27,10 +27,10 @@ const Nav = () => {
           <div>
             <ul className="flex flex-row gap-8">
               <li>
-                <Link>Home</Link>
+                <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link>About</Link>
+                <Link to={"/about"}>About</Link>
               </li>
               <li>
                 <Link>Courses</Link>

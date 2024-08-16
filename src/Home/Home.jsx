@@ -7,6 +7,7 @@ import Offer from "../components/Offer/Offer";
 import Popular from "../components/popular/Popular";
 import Test from "../components/testimonial/Test";
 import Work from "../components/workshop/Work";
+import Work1 from "../components/workshop/Work1";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Cours />
       <Offer />
       <Popular />
+      <Work1 />
       <Work />
       <Test />
       <Commu />

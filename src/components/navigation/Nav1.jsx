@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
-import { FaRegUser } from "react-icons/fa";
+import { CiUser } from "react-icons/ci";
 import { useState } from "react";
 
-const Nav = () => {
+const Nav1 = () => {
   const [color, setColor] = useState(false);
 
   const colorChange = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 80) {
       setColor(true);
     } else {
       setColor(false);
@@ -15,11 +15,10 @@ const Nav = () => {
   };
 
   window.addEventListener("scroll", colorChange);
-
   return (
     <>
       <header>
-        <nav className={color ? "header header-bg" : "header"}>
+        <nav className={color ? "header1 header-bg" : "header1"}>
           <div className="max-w-[8.75rem]">
             <img src="/images/logo/logo-2.png" alt="logo" className="w-full" />
           </div>
@@ -47,13 +46,12 @@ const Nav = () => {
             </ul>
           </div>
 
-          <div className="flex flex-row gap-4 cursor-pointer	">
-            <div className="border border-1 border-[#fff] px-3 py-3 rounded-lg bg-[#fff] shadow-md">
-              <CiSearch size={20} className="text-[#535fd9]" />
+          <div className="flex flex-row gap-6 cursor-pointer	">
+            <div className="">
+              <CiSearch size={20} className="text-[#231f40]" />
             </div>
-            <button className="flex flex-row gap-2 px-6 py-3 bg-[#535fd9] rounded-lg text-white hover:bg-[#273849] duration-300">
-              <FaRegUser className="mt-1" />
-              <Link>Login/Register</Link>
+            <button className="">
+              <CiUser size={20} className=" text-[#231f40]" />
             </button>
           </div>
         </nav>
@@ -62,4 +60,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Nav1;

@@ -1,9 +1,11 @@
 import { TiArrowRight } from "react-icons/ti";
+import Edu from "../edubg/Edu";
 
 const Hero = () => {
   return (
     <>
       <section>
+        <Edu title={"About Us"} />
         <div className="flex flex-row items-center justify-normal pt-[8rem]">
           <div className="flex flex-row gap-0">
             <div className="about1 pt-[3.4rem]">

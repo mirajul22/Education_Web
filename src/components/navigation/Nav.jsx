@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <>
       <header>
-        <nav className={color ? "header header-bg" : "header"}>
+        <nav className={color ? "header header-bg " : "header "}>
           <div className="max-w-[8.75rem]">
             <img src="/images/logo/logo-2.png" alt="logo" className="w-full" />
           </div>
@@ -36,13 +36,10 @@ const Nav = () => {
                 <Link to={"/courses"}>Courses</Link>
               </li>
               <li>
-                <Link>Pages</Link>
+                <Link to={"/contact"}>Contact</Link>
               </li>
               <li>
-                <Link>Blog</Link>
-              </li>
-              <li>
-                <Link>Shop</Link>
+                <Link to={"/blog"}>Blog</Link>
               </li>
             </ul>
           </div>

@@ -3,6 +3,8 @@ import "./App.css";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Corses from "./Courses_us/Corses";
+import Contact from "./Contact/Contact";
+import Blog from "./Blog/Blog";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Corses />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );

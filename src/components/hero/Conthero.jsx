@@ -104,11 +104,13 @@ const Conthero = () => {
               <input
                 type="text"
                 placeholder="Name*"
+                required
                 className="px-[30px] h-[60px] w-[570px] max-w-full rounded-md text-base  font-medium bg-[#f5f5f5] placeholder:text-[#6f6b80] outline-none focus:outline-[#525fe1] duration-300"
               />
               <input
                 type="email"
                 placeholder="Email*"
+                required
                 className="px-[30px] h-[60px] w-[570px] max-w-full rounded-md text-base  font-medium bg-[#f5f5f5] placeholder:text-[#6f6b80] outline-none focus:outline-[#525fe1] duration-300"
               />
               <input

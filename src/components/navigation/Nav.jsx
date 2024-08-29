@@ -4,6 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 import { useState } from "react";
 import { RiUserLine } from "react-icons/ri";
 import { AiOutlineMenu } from "react-icons/ai";
+import ResNav from "./ResNav";
 
 const Nav = () => {
   const [color, setColor] = useState(false);
@@ -17,6 +18,19 @@ const Nav = () => {
   };
 
   window.addEventListener("scroll", colorChange);
+
+  const [open, setOpen] = useState(false);
+
+  const Isopen = () => {
+    console.log("open");
+    setOpen(true);
+  };
+
+  const Close = () => {
+    if (open === true) {
+      setOpen(false);
+    }
+  };
 
   return (
     <>
@@ -61,10 +75,15 @@ const Nav = () => {
               <Link>Login/Register</Link>
             </button>
             <div className="block md:hidden border border-1 border-[#fff] px-3 py-3 rounded-lg bg-[#fff] shadow-md">
-              <AiOutlineMenu size={15} className="text-[#535fd9]" />
+              <AiOutlineMenu
+                size={15}
+                className="text-[#535fd9]"
+                onClick={Isopen}
+              />
             </div>
           </div>
         </nav>
+        <div className="">{open ? <ResNav Close={Close} /> : null}</div>
       </header>
     </>
   );
